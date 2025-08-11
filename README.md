@@ -28,13 +28,20 @@ The script is being developed to run on Ubuntu Linux (on Raspberry Pi) but will 
 
 📊 **Features (Planned/Building)**
 
-🛠️ Pings router IP 
+🛠️ Pings router IP
+ 
 🛠️ Logs timestamps and connectivity status 
+
 🛠️ Tracks total uptime in readable format 
+
 🛠️ Can be scheduled via `cron` 
+
 🛠️ Runs on boot, user login, and every 3 hours
+
 🛠️ Will support email alerts when router is down or uptime exceeds a threshold
+
 🛠️ Portable across Raspberry Pi and Linux machines
+
 🛠️ Logs and credentials excluded from GitHub repo
 
 ---
