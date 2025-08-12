@@ -28,7 +28,7 @@ The script is being developed to run on Ubuntu Linux (on Raspberry Pi) but will 
 
 📊 **Features (Planned/Building)**
 
-🛠️ Pings router IP
+🛠️ Pings router IP. Resources used to studying network pinging: https://how.dev/answers/how-to-ping-multiple-ip-addresses-using-python-script
  
 🛠️ Logs timestamps and connectivity status 
 
