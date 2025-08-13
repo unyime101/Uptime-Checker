@@ -15,11 +15,11 @@ The script is being developed to run on Ubuntu Linux (on Raspberry Pi) but will 
 |-------------------------------|----------------|----------------------------------------------------------------------|
 | Python ping monitoring script | ✅Completed    | Written a script to ping router and track status                     |
 | Logging to text file          | ✅Completed    | Added basic logging for uptime and downtime                          |
-| Optional Cron automation      | 🚧 In Progress | Will run script every 3 hours, on login, and on boot                 |
+| Optional Cron automation      | ✅Completed    | Will run script every 3 hours, on login, and on boot                 |
 | Email alert system            | ✅Completed    | Secure alerts via SMTP with `.env` variables                         |
-| Project documentation         | 🚧 In Progress | Writing this README and usage instructions                           |
-| Git setup with .gitignore     | 🚧 In Progress | Setting up repo to exclude logs and secrets                          |
-| GitHub publishing             | 🔜 Planned     | Repo will be pushed and maintained on GitHub                         |
+| Project documentation         | ✅Completed    | Writing this README and usage instructions                           |
+| Git setup with .gitignore     | ✅Completed    | Setting up repo to exclude logs and secrets                          |
+| GitHub publishing             | ✅Completed    | Repo will be pushed and maintained on GitHub                         |
 | optional Grafana logging      | 🔜 Planned     | Will integrate for better visualization of uptime metrics            |
 | Docker/Kubernetes deployment  | 🔜 Planned     | Containerization and deployment via Minikube for DevOps practice     |
 
@@ -31,13 +31,13 @@ The script is being developed to run on Ubuntu Linux (on Raspberry Pi) but will 
  
 ✅ Logs timestamps and connectivity status 
 
-🛠️ Can be scheduled via `cron` 
+✅ Can be scheduled via `cron` 
 
-🛠️ Runs on boot, user login, and every 3 hours
+✅ Runs on boot and every 3 hours
 
 ✅ Will support email alerts when router is down 
 
-🛠️ Portable across Raspberry Pi and Linux machines
+✅ Portable across Raspberry Pi and Linux machines
 
 ✅ Logs and credentials excluded from GitHub repo
 
@@ -47,3 +47,4 @@ The script is being developed to run on Ubuntu Linux (on Raspberry Pi) but will 
 
 - Learn some networking skills and commands
 - Understanding how to automate tasks and monitor even when im not home
+- Really starting to understand how gitignores and .env files are useful in development
