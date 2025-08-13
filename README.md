@@ -11,28 +11,26 @@ The script is being developed to run on Ubuntu Linux (on Raspberry Pi) but will 
 
 🚧 **Current Progress**
 
-| Area                          | Status        | Notes                                                                |
-|-------------------------------|---------------|----------------------------------------------------------------------|
-| Python ping monitoring script| 🚧 In Progress | Writing script to ping router and track status                       |
-| Logging to text file         | 🚧 In Progress | Adding basic logging for uptime and downtime                         |
-| Optional Cron automation     | 🚧 In Progress | Will run script every 3 hours, on login, and on boot                 |
-| Alert thresholds             | 🔜 Planned     | Will add uptime limit warnings and router-down detection             |
-| Email alert system           | 🔜 Planned     | Secure alerts via SMTP with `.env` variables                         |
-| Project documentation        | 🚧 In Progress | Writing this README and usage instructions                           |
-| Git setup with .gitignore    | 🚧 In Progress | Setting up repo to exclude logs and secrets                          |
-| GitHub publishing            | 🔜 Planned     | Repo will be pushed and maintained on GitHub                         |
-| optional Grafana logging     | 🔜 Planned     | Will integrate for better visualization of uptime metrics            |
-| Docker/Kubernetes deployment | 🔜 Planned     | Containerization and deployment via Minikube for DevOps practice     |
+| Area                          | Status         | Notes                                                                |
+|-------------------------------|----------------|----------------------------------------------------------------------|
+| Python ping monitoring script | ✅Completed    | Written a script to ping router and track status                     |
+| Logging to text file          | ✅Completed    | Added basic logging for uptime and downtime                          |
+| Optional Cron automation      | 🚧 In Progress | Will run script every 3 hours, on login, and on boot                 |
+| Alert thresholds              | 🚧 In Progress | Will add uptime limit warnings and router-down detection             |
+| Email alert system            | 🚧 In Progress | Secure alerts via SMTP with `.env` variables                         |
+| Project documentation         | 🚧 In Progress | Writing this README and usage instructions                           |
+| Git setup with .gitignore     | 🚧 In Progress | Setting up repo to exclude logs and secrets                          |
+| GitHub publishing             | 🔜 Planned     | Repo will be pushed and maintained on GitHub                         |
+| optional Grafana logging      | 🔜 Planned     | Will integrate for better visualization of uptime metrics            |
+| Docker/Kubernetes deployment  | 🔜 Planned     | Containerization and deployment via Minikube for DevOps practice     |
 
 ---
 
 📊 **Features (Planned/Building)**
 
-🛠️ Pings router IP. Resources used to studying network pinging: https://how.dev/answers/how-to-ping-multiple-ip-addresses-using-python-script
+✅ Pings router IP. Resources used to studying network pinging: https://how.dev/answers/how-to-ping-multiple-ip-addresses-using-python-script
  
-🛠️ Logs timestamps and connectivity status 
-
-🛠️ Tracks total uptime in readable format 
+✅ Logs timestamps and connectivity status 
 
 🛠️ Can be scheduled via `cron` 
 
@@ -42,7 +40,7 @@ The script is being developed to run on Ubuntu Linux (on Raspberry Pi) but will 
 
 🛠️ Portable across Raspberry Pi and Linux machines
 
-🛠️ Logs and credentials excluded from GitHub repo
+✅ Logs and credentials excluded from GitHub repo
 
 ---
 
