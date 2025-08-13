@@ -17,7 +17,7 @@ for ip in list:
     print(message)
   else:
     print(response)
-    ff = open("Uptime_Results.txt","a")
+    ff = open("Uptime_Log.txt","a")
     ff.write(f"{str(ip)} Router is still up and running at: {datetime.now()}\n")
     ff.close()
     print(str(ip)+" Router is still up and running\n")
