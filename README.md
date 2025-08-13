@@ -15,7 +15,7 @@ The script is being developed to run on Ubuntu Linux (on Raspberry Pi) but will 
 |-------------------------------|----------------|----------------------------------------------------------------------|
 | Python ping monitoring script | ✅Completed    | Written a script to ping router and track status                     |
 | Logging to text file          | ✅Completed    | Added basic logging for uptime and downtime                          |
-| Optional Cron automation      | ✅Completed    | Will run script every 3 hours, on login, and on boot                 |
+| Optional Cron automation      | ✅Completed    | Will run script every 3 hours and on boot                            |
 | Email alert system            | ✅Completed    | Secure alerts via SMTP with `.env` variables                         |
 | Project documentation         | ✅Completed    | Writing this README and usage instructions                           |
 | Git setup with .gitignore     | ✅Completed    | Setting up repo to exclude logs and secrets                          |
